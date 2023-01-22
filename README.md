@@ -11,7 +11,7 @@ Summary: Retrieve GOES-East/West data from AWS. RGB recipes included!
 
 Development: https://github.com/blaylockbk/goes2go
 
-Documentation: https://blaylockbk.github.io/goes2go/_build/html/
+Documentation: https://goes2go.readthedocs.io/
 
 GOES-East and GOES-West satellite data are made available on Amazon Web
 Services through NOAA's Big Data Program. `goes2go` is a python package

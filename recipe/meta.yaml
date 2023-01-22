@@ -10,7 +10,7 @@ source:
   sha256: 559ef5162958f5d9b294cd1244969228ca28aaf3a8ea749e9de262d80dc10cb1
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   script_env:
@@ -55,7 +55,7 @@ about:
     that makes it easy to find and download the files you need to your local
     computer. Some additional helpers are provided that make working with GOES
     data easy and fun, such as recipes for RGB composites.
-  doc_url: https://blaylockbk.github.io/goes2go/_build/html/
+  doc_url: https://goes2go.readthedocs.io/
   dev_url: https://github.com/blaylockbk/goes2go
 
 extra:
