@@ -1,5 +1,5 @@
 {% set name = "goes2go" %}
-{% set version = "2023.4.0" %}
+{% set version = "2023.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b4f62f380051b1cc376328a0fdd9115a32a820ab68fb513b15be73d0a17db44e
+  sha256: 9c80a595e9c3813e71a8bf75730c1a92ceb43146dc70994f7236856d3892948e
 
 build:
   number: 0
