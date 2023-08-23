@@ -1,11 +1,11 @@
-About goes2go
-=============
+About goes2go-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/goes2go-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/blaylockbk/goes2go
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/goes2go-feedstock/blob/main/LICENSE.txt)
 
 Summary: Retrieve GOES-East/West data from AWS. RGB recipes included!
 
