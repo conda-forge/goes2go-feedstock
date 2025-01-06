@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 1cef2b7d22e4643d7ed3c27c2faa4f5cc96380835d208b6d9c7b8b1c42a3cbeb
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   script_env:
@@ -19,7 +19,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
     - setuptools
     - setuptools_scm
 
@@ -30,7 +30,7 @@ requirements:
     - netcdf4
     - numpy
     - pandas
-    - python >=3.8
+    - python >={{ python_min }}
     - pygrib
     - s3fs
     - toml
@@ -43,6 +43,7 @@ test:
     - goes2go
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/blaylockbk/goes2go
