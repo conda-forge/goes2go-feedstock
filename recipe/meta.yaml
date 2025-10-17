@@ -1,5 +1,5 @@
 {% set name = "goes2go" %}
-{% set version = "2025.2.0" %}
+{% set version = "2025.10.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 92cae8a78868b2a3b59c945315184ad82f7ff880552ba9575ac7c9b5d2ab4045
+  sha256: e9025f51c0299d6ab422666540dbc2f3259a6e52f09672b8034413dea256b33a
 
 build:
   number: 0
